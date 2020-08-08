@@ -9,7 +9,7 @@ then
   exit 1
 fi
 
-dir=`pwd`
+dir="$HOME/sh/tgen"
 tgenf=$dir/tgenf.sh
 fmt=$dir/fmt.sh
 result=`grep $pattern $target | source $tgenf`
